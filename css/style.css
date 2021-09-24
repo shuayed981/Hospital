@@ -1,0 +1,713 @@
+/*==============================================================================================
+    common css start   
+================================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+span {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+:root {
+    --hover: #f18d26
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*==============================================================================================
+    common css end   
+================================================================================================*/
+/*==============================================================================================
+    header css start   
+================================================================================================*/
+#header_part {
+    padding: 13px 0 16px;
+}
+
+.header_cont {
+    display: flex;
+}
+
+.header_img {
+    width: 83px;
+}
+
+.header_text {
+    width: 635px;
+}
+
+.header_num {
+    width: 252px;
+}
+
+.header_text h2 {
+    margin-left: 10px;
+    line-height: 88px;
+    color: #3ca2a2;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+
+.header_num p {
+    color: #b76262;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 88px;
+    margin-left: 27px;
+}
+
+/*==============================================================================================
+    header css end   
+================================================================================================*/
+
+/*==============================================================================================
+    menu css start   
+================================================================================================*/
+#menu_part {
+    height: 50px;
+    background: linear-gradient(to top, #ae1010 0%, #cf0511 100%);
+}
+
+.menu_cont {
+    display: flex;
+    transition: all linear .3s;
+
+}
+
+.menu_text {
+    width: 870px;
+}
+
+.menu_icon {
+    width: 100px;
+}
+
+.menu_text ul li {
+
+    line-height: 50px;
+}
+
+.menu_text ul {
+    display: flex;
+}
+
+.menu_text ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0 15px;
+    transition: all linear .3s;
+}
+
+.menu_text ul li a:hover {
+    background: var(--hover);
+}
+
+.menu_icon {
+    text-align: right;
+    line-height: 50px;
+}
+
+.menu_icon a {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    line-height: 26px;
+    background: #fff;
+    text-align: center;
+    color: #ae1010;
+    transition: all linear .3s;
+    margin-left: 1px;
+}
+
+.menu_icon a:hover {
+    background: var(--hover);
+    color: #fff;
+}
+.menu_fix{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all linear .3s;
+    width: 100%;
+    padding-left: 275px;
+    z-index: 999;
+}
+/*==============================================================================================
+    menu css end   
+================================================================================================*/
+
+/*==============================================================================================
+   banner css start   
+================================================================================================*/
+#banner_part {
+    padding: 75px 0;
+}
+
+.banner_cont {
+    display: flex;
+    position: relative;
+
+}
+
+.banner_text {
+    width: 520px;
+}
+
+.banner_img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner_img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner_text h2 {
+    color: #215a6d;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0px;
+}
+
+.banner_text h2 span {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 48px;
+    display: block;
+}
+
+.banner_text p {
+    color: #215a6d;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+}
+
+.banner_text a {
+    padding: 0 25px;
+    background: #92c7a3;
+    color: #fff;
+    line-height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 22px;
+    margin-top: 40px;
+    transition: all linear .3s;
+}
+
+.banner_text a:hover {
+    background: var(--hover);
+    color: #fff;
+}
+
+.banner_img {
+    width: 580px;
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+}
+
+/*==============================================================================================
+   banner css end   
+================================================================================================*/
+
+/*==============================================================================================
+   service css start   
+================================================================================================*/
+#service_part {
+    padding: 75px 0;
+}
+
+.ser_cont {
+    display: flex;
+}
+
+.ser_head {
+    width: 30%;
+    text-align: center;
+    margin-right: 57px;
+}
+
+.ser_head h3 {
+    color: #3ca2a2;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+    padding-bottom: 7px;
+}
+
+.ser_head img {
+    padding-bottom: 10px;
+}
+
+.ser_head p {
+    color: #215a6d;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    line-height: 20px;
+}
+
+.ser_head a {
+    color: #92c7a3;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    padding-top: 20px;
+}
+
+.ser_head a i {
+    color: #c70811;
+    padding-right: 5px;
+}
+
+.ser_head:last-child {
+    margin-right: 0;
+}
+
+/*==============================================================================================
+   service css end   
+================================================================================================*/
+
+/*==============================================================================================
+   notice css start   
+================================================================================================*/
+#notice_part {
+    background: #dfece6;
+    padding: 30px 0;
+}
+
+.not_cont {
+    display: flex;
+}
+
+.notice_col {
+    width: 49%;
+    margin-right: 30px;
+}
+
+.notice_col:last-child {
+    margin-right: 0;
+}
+
+.not_head h2 {
+    position: relative;
+    padding-bottom: 15px;
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.not_head h2:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.not_head h2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    width: 54px;
+    height: 2px;
+    background: #ae1010;
+    z-index: 1;
+}
+
+.not_inner ul {
+    padding-top: 35px;
+}
+
+.not_inner ul li {
+    background: #fff;
+    line-height: 42px;
+    border-bottom: 1px solid #53b7c7;
+    color: #3ca2a2;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 15px;
+}
+
+.not_inner ul li:last-child {
+    border-bottom: 0;
+}
+
+.not_inner a {
+    padding-top: 20px;
+    color: #c70811;
+}
+
+.not_inner a i {
+    padding-right: 5px;
+}
+
+.not_inner ul li i {
+    padding: 0 18px;
+    background: #bf0a11;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    right: 0;
+}
+
+.not_img {
+    padding-top: 42px;
+}
+
+.not_img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*==============================================================================================
+   notice css end   
+================================================================================================*/
+
+/*==============================================================================================
+   info css start   
+================================================================================================*/
+#gall_part {
+    padding: 75px 0;
+}
+
+.gall_cont {
+    display: flex;
+}
+
+#gall_part .not_head h2::after {
+    background: #eaeaea;
+}
+
+#gall_part .not_head {
+    padding-bottom: 40px;
+}
+
+.gall_eve {
+    margin-right: 30px;
+    float: left;
+}
+
+.gall_eve:first-child {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.gall_eve:first-child::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 28px;
+    width: 100%;
+    height: 1px;
+    background: #dfece6;
+}
+
+.not_inner a {
+    padding-top: 20px;
+    color: #3ca2a2;
+}
+
+.not_inner a i {
+    color: #c70811;
+}
+
+.gall_eve h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+
+.gall_eve p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #215a6d;
+    line-height: 20px;
+}
+
+.gall_eve:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+.gal_media ul li {
+    padding-bottom: 20px;
+    color: #215a6d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.gal_media ul li i {
+    padding-right: 8px;
+    color: #bf0a11;
+    font-size: 14px;
+}
+
+.gal_media a {
+    padding-top: 38px;
+    color: #3ca2a2;
+}
+
+.gal_media a i {
+    padding-right: 2px;
+    color: #c70811;
+}
+
+.gal_inner ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gal_inner ul li {
+    width: 45%;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.gal_inner ul li:nth-child(2),
+.gal_inner ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+.gal_inner ul li img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.gal_inner a {
+    padding-top: 70px;
+    color: #3ca2a2;
+    ;
+}
+
+.gal_inner a i {
+    padding-right: 2px;
+    color: #c70811;
+}
+
+/*==============================================================================================
+   info css end   
+================================================================================================*/
+
+/*==============================================================================================
+   surgery css start   
+================================================================================================*/
+#surg_part{
+    padding-top: 20px;
+}
+#surg_part{
+    padding-bottom:95px;
+}
+.surg_cont{
+    display: flex;
+}
+.doc_part h2{
+    position: relative;
+    padding-bottom: 15px;
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 600;
+}
+.doc_part h2:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+.doc_part h2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    width: 54px;
+    height: 2px;
+    background: #ae1010;
+    z-index: 1;
+}
+.doc_part h2::after {
+    background: #eaeaea;
+    width: 970px;
+}
+.doc_part{
+    padding-bottom: 30px;
+}
+.doc_info{
+    display: flex;
+}
+.doc img{
+    width: 100%;
+    max-width: 100%;
+}
+.doc{
+    width: 304px;
+    margin-right: 30px;
+}
+.doc:nth-child(3){
+    margin-right: 0;
+}
+.doc_text{
+    padding-top: 15px;
+}
+.doc_text h3{
+   padding-bottom: 4px;
+   font-weight: 600;
+   font-size: 18px;
+   color: #3ca2a2;
+}
+.doc_text p {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+.doc_text p span{
+    padding-top:4px;
+    color: #cf0511;
+    font-size: 12px;
+    font-weight: 400;
+}
+/*==============================================================================================
+   surgery css end   
+================================================================================================*/
+
+/*==============================================================================================
+   footer css start   
+================================================================================================*/
+#foot_part{
+    background: #222222;  
+}
+.foot_row1{
+    display: flex;
+    padding-top: 23px;
+}
+.foot_img img{
+    width: 100%;
+    max-width: 100%;
+}
+.text_foot h2 {
+    margin-left: 10px;
+    line-height: 88px;
+    color: #3ca2a2;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+.foot_img{
+    width: 83px;
+    margin-right: 10px;
+}
+.foot_row2{
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 43px;
+}
+.nav ul li{
+    display: block;
+    padding: 10px 0;
+}
+.nav h5{
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+.nav ul li a{
+    color: #fff;;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.nav ul li i{
+    color: #c60811;
+    font-size: 12px;
+}
+.nav{
+    width: 25%;
+}
+
+.copy_right{
+    background: #cf0511;
+    padding:18px 0;
+    text-align: center;
+}
+.copy_right p{
+    font-size: 14px;
+    color: #cb8f8e;
+    font-weight: 400;
+}
+
+
+
+
+
+.nav_1 ul li{
+    display: block;
+    padding: 10px 0;
+}
+.nav_1 h5{
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+.nav_1 ul li a{
+    color: #c6ded9;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.nav_1 ul li i{
+    color: #c60811;
+    font-size: 12px;
+}
+.nav_1{
+    width: 25%;
+}
+/*==============================================================================================
+   footer css end   
+================================================================================================*/
+
+
